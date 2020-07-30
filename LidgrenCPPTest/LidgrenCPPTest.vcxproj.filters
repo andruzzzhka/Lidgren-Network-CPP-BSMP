@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LidgrenNetwork">
+      <UniqueIdentifier>{d726bb6f-d54a-43e8-85b1-2bd23d7c92ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Multiplayer">
+      <UniqueIdentifier>{a1308b0b-80dc-4298-9224-d3c9e4508523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LidgrenNetwork">
+      <UniqueIdentifier>{95f5cba8-0c55-4271-af17-50c7d5d3b48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Multiplayer">
+      <UniqueIdentifier>{fd5e8786-cb49-470a-b771-5d7b3a4ccbf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetIncomingMessage.cpp">
+      <Filter>Source Files\LidgrenNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NetOutgoingMessage.cpp">
+      <Filter>Source Files\LidgrenNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient.cpp">
+      <Filter>Source Files\LidgrenNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>Source Files\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomSettings.cpp">
+      <Filter>Source Files\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSafeQueue.cpp">
+      <Filter>Source Files\LidgrenNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMath.cpp">
+      <Filter>Source Files\LidgrenNetwork</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LidgrenNetwork.h">
+      <Filter>Header Files\LidgrenNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscStructs.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomSettings.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplayer.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConstants.h">
+      <Filter>Header Files\LidgrenNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NetOutgoingMessage.h">
+      <Filter>Header Files\LidgrenNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NetIncomingMessage.h">
+      <Filter>Header Files\LidgrenNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient.h">
+      <Filter>Header Files\LidgrenNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerConstants.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMath.h">
+      <Filter>Header Files\LidgrenNetwork</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
