@@ -8,4 +8,5 @@ Many features of the original library have not yet been implemented, either beca
 List of important differences at the moment:
 1. ReliableOrdered messages work like ReliableSequence
 2. No support for fragmented messages
-3. *Something else I forgot about*
+3. No support for strings longer than 127 characters
+4. *Something else I probably forgot about*
